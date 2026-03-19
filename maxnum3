@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNqHyGdFVH+bQ7MY5vE9r/g",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/svwn390-glitch/maxnum3/blob/main/maxnum3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FL46bwRik93o",
+        "outputId": "7d3baf97-d0a1-4744-f05d-8e10950829a0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first number: 5\n",
+            "Enter second number: 9\n",
+            "Enter third number: 3\n",
+            "The biggest number is: 9.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "# maxnum.py\n",
+        "\n",
+        "# Ask the user to input three numbers\n",
+        "num1 = float(input(\"Enter first number: \"))\n",
+        "num2 = float(input(\"Enter second number: \"))\n",
+        "num3 = float(input(\"Enter third number: \"))\n",
+        "\n",
+        "# Find the biggest number\n",
+        "if num1 >= num2 and num1 >= num3:\n",
+        "    biggest = num1\n",
+        "elif num2 >= num1 and num2 >= num3:\n",
+        "    biggest = num2\n",
+        "else:\n",
+        "    biggest = num3\n",
+        "\n",
+        "# Print the result\n",
+        "print(\"The biggest number is:\", biggest)"
+      ]
+    }
+  ]
+}
